@@ -3,7 +3,7 @@
 CTile::CTile() {
 }
 
-CTile::CTile(CTile &Obj) {
+CTile::CTile(const CTile &Obj) {
     m_Type = Obj.Type();
     m_Name = Obj.Name();
 }
